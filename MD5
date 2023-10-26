@@ -1,0 +1,13 @@
+e69d8418095ab05193f6fd8df596a433 *DESCRIPTION
+e47e98f030955231185717298c90824b *NAMESPACE
+1fa08c2f8cc3409f47b846615a9a7581 *NEWS.md
+edb5d97268362b709e73224ab577d89b *R/aaa.R
+9ec41807864f1dfac797e6ce429e064f *R/integrateOverPolyhedron.R
+20085dfb804ba65dde78a3fe22a1c63d *README.md
+aeabac719614c107e36f25ef1b45fc6a *build/vignette.rds
+4abb56f595b25da2e60443230601ef12 *inst/doc/polyhedralCubature.R
+5f7812caf9a1e65cb6876dfbc014467e *inst/doc/polyhedralCubature.Rmd
+d6c043dba64d7c9e2225cf770d8d8ad3 *inst/doc/polyhedralCubature.html
+27de4d7ab8a47f70e7172936eefe2b58 *man/integrateOverPolyhedron.Rd
+5f7812caf9a1e65cb6876dfbc014467e *vignettes/polyhedralCubature.Rmd
+06d52ea04ebe6e817dddda4b5f7d929f *vignettes/vignette.css
