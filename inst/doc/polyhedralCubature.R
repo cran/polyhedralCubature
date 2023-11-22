@@ -32,6 +32,15 @@ f <- function(x, y, z) {
 }
 integrateOverPolyhedron(f, A, b)
 
+## ----getAb--------------------------------------------------------------------
+library(ompr)
+model <- MIPModel() %>%
+  add_variable(x) %>% add_variable(y) %>% add_variable(z) %>%
+  add_constraint(-5 <= x) %>% add_constraint(x <= 4) %>%
+  add_constraint(-5 <= y) %>% add_constraint(y <= 3 - x) %>%
+  add_constraint(-10 <= z) %>% add_constraint(z <= 6 - x - y)
+getAb(model)
+
 ## ----integrate_spray, message=FALSE-------------------------------------------
 library(spray)
 x <- lone(1, 3); y <- lone(2, 3); z <- lone(3, 3)
